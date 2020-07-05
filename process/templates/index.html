@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+    <title>Ninja Gold by Viktor Velikov</title>    
+</head>
+<body>
+<h1>Ninja Gold by Viktor Velikov</h1>
+<p>Your Gold: {{request.session.your_gold}}</p><br>
+<p>Farm:(earns 10-20 gold) {{request.session.farm_action}}</p><br>
+<button type = "button"> <a href = "farm_action"> Find Gold</a></button><br>
+<p>Cave:(earns 5-10 gold) {{request.session.cave_action}}</p><br>
+<button type = "button"> <a href = "cave_action"> Find Gold</a></button><br>
+<p>House:(earns 2-5 gold) {{request.session.house_action}}</p><br>
+<button type = "button"> <a href = "house_action"> Find Gold</a></button><br>
+<p>Casino:(earns or takes 0-50 gold) {{request.session.casino_action}}</p><br>
+<button type = "button"> <a href = "casino_action"> Find Gold</a></button><br>
+<p>Activities: {{request.session.activities}}</p>
+
+
+</body>
